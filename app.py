@@ -436,7 +436,7 @@ ADMIN_PAGE = """
             </ul>
             <p style="margin-top: 15px; padding: 10px; background: rgba(0, 0, 0, 0.5); border-radius: 5px;">
                 💀 <strong>Another whisper from the shadows:</strong><br>
-                "I think this is an apache server..can you access the next flag?"
+                "Not all ghosts haunt halls; some dwell in dotted silence."
             </p>
         </div>
         
@@ -852,7 +852,7 @@ The spirits have revealed multiple paths:
 
 💡 Hint: The /admin endpoint is cursed! 
 
-🔮 Another whisper from the shadows: "I think this is an apache server..can you access the next flag?"
+🔮 Another whisper from the shadows: "Not all ghosts haunt halls; some dwell in dotted silence."
 """
     return response_text, 200, {'Content-Type': 'text/plain'}
 
@@ -895,7 +895,7 @@ RewriteRule ^secrets/(.*)$ /forbidden/$1 [L]
 # Flag Part 4: {FLAG_PART_4}
 
 # 🍎 Hint from the spirits: 
-# "I love making websites on my MAC, I can store a lot of information there..."
+# "When you think the room is empty, she’s still arranging what you can’t see(MAC)"
 """
     return htaccess_content, 200, {'Content-Type': 'text/plain'}
 

@@ -4,7 +4,7 @@ import base64
 app = Flask(__name__)
 
 # Flag parts
-FLAG_PART_1 = "vnr_w4rz0n3{K4nch4n4_"
+FLAG_PART_1 = "w4rz0n3{K4nch4n4_"
 FLAG_PART_2 = "53cr3t5_"
 FLAG_PART_3 = "4r3_3v3rywh3r3_"
 FLAG_PART_4 = "1n_th3_"
